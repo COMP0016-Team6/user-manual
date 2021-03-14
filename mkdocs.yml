@@ -1,0 +1,8 @@
+site_name: UCL-GOSH Data Interchange for Sensors Classifications
+nav:
+    - Home: index.md
+    - Getting Started: getting_started.md
+    - User Manual: 
+        - Clinicians: clinicians.md
+        - Patients: patients.md
+theme: material
