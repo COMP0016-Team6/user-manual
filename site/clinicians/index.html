@@ -287,8 +287,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#search-patients" class="md-nav__link">
-    Search Patients
+  <a href="#searching-patients" class="md-nav__link">
+    Searching Patients
   </a>
   
 </li>
@@ -520,8 +520,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#search-patients" class="md-nav__link">
-    Search Patients
+  <a href="#searching-patients" class="md-nav__link">
+    Searching Patients
   </a>
   
 </li>
@@ -687,31 +687,30 @@
                 
                 <h1 id="clinicians">Clinicians</h1>
 <h2 id="register">Register</h2>
-<p>On the <code>register</code> page, select your user role as Clinician. And then input your basic information: email, password, name one by one.</p>
-<p>If you miss anyone of them, there will be a warning message: <code>Missing Credentials!</code></p>
+<p>On the <code>register</code> page, select your user role as Clinician. And then input your basic information: email, password, name one by one. All fields required.</p>
 <p><img alt="Clinicians Register" src="../img/clinicians/register.png" /></p>
-<p>Once you have finished inputing your personal information, click on <code>Submit</code> to submit the registration form. After that, the web app will give you a token to allow you to log in directly.</p>
+<p>Click on <code>Submit</code> button to submit the registration form. After that, the web app will give you a token to allow you to log in directly.</p>
 <h2 id="login">Login</h2>
 <p>If you have already register an account, just fill in email and password to input.</p>
 <p><img alt="Clinicians Login" src="../img/clinicians/login.png" /></p>
 <h2 id="clinician-dashboard">Clinician Dashboard</h2>
 <h3 id="add-patients">Add Patients</h3>
-<p>Since you register as a clinician just now, you cannot see the patients you supervised so far.</p>
+<p>Since you just login, you haven't add any patients yet.</p>
 <p><img alt="Clinicians Dashboard Without Patients" src="../img/clinicians/dashboard_without_patients.png" /></p>
 <p>So, for now, you shall click the Add Patients button add some patients to supervise.</p>
 <p>Once you enter the add patients page, you will see all patients stored in the database. If you find no patients under the search bar, don't worry. You need to register some before you move to the next step.</p>
 <p><img alt="Clinicians Add Patients" src="../img/clinicians/add_patients.png" /></p>
 <p>On both clinician dashboard page and add patients page, the form which is used to add patients contains only a component <code>SearchBar</code> and a button to submit the form.</p>
-<h4 id="search-patients">Search Patients</h4>
+<h4 id="searching-patients">Searching Patients</h4>
 <p>For the Searching bit, there is a search bar with text info <code>Search By Name</code>, after input the name of the patient, the system filter the lowercase of patients' names by the lowercase of input. If the name of the patient includes the input, this name will remain on the list.</p>
-<p><img alt="Clinicians Add Patients Searching Patients" src="img/clinicians/searching_patietns(1).png" /></p>
+<p><img alt="Clinicians Add Patients Searching Patients" src="../img/clinicians/searching_patients%281%29.png" /></p>
 <h4 id="choosing-patients">Choosing Patients</h4>
 <p>And there are checkboxes for you to select the patients you want to add.</p>
 <p><img alt="Clinicians Add Patients Choosing Patients" src="../img/clinicians/choosing_patients.png" /></p>
 <p>After submitting the form, you can click the <code>Back</code> button to return to the clinician dashboard page and you can access your patients' dashboards.</p>
 <p><img alt="Clinicians Dasboard With Patients" src="../img/clinicians/dashboard_with_patients.png" /></p>
 <h3 id="access-to-patient-dashboard">Access to Patient Dashboard</h3>
-<p>The search bar is also available for the clinicians to search patients.</p>
+<p>The search bar is also available for the clinicians to search patients on the <code>Clinician Dashboard</code> page.</p>
 <p><img alt="Clinicians Dashboard Searching Patients" src="../img/clinicians/searching_patients%282%29.png" /></p>
 <p>In addition, patients' names are in blue because each name links to their patient dashboard. </p>
 <h2 id="patient-dashboard">Patient Dashboard</h2>
@@ -721,9 +720,10 @@
 <h4 id="filter-by-specific-date-range">Filter by Specific Date Range</h4>
 <p>The first component on the top left of the dashboard is used to select the date range to filter. </p>
 <p><img alt="Clinicians Patient Dashboard Date Selector" src="../img/clinicians/date_range_selector.png" /></p>
-<p><img alt="Clinicians Patient Dashboard Date Selector Insight" src="../img/clinicians/insight.png" /></p>
+<p><img alt="Clinicians Patient Dashboard Date Selector Insight 1" src="../img/clinicians/insight%281%29.png" /></p>
+<p><img alt="Clinicians Patient Dashboard Date Selector Insight 2" src="../img/clinicians/insight%282%29.png" /></p>
 <p>After click on that and then select a range of time, the dashboard will filter the date the only remain the range of dates you selected.</p>
-<p><img alt="Clinicians Patient Dashboard Date Selector" src="../img/clinicians/select%281%29.png" /></p>
+<p><img alt="Clinicians Patient Dashboard Filter By Date Range" src="../img/clinicians/dashboard_date_range.png" /></p>
 <h4 id="filter-by-day-by-month-or-by-year">Filter By Day, By Month or By Year</h4>
 <p>The default setting of filtering is <code>All Data</code>, change it to <code>By Day</code>, <code>By Month</code> or <code>By Year</code> to reset the dashboard.</p>
 <p><img alt="Clinicians Patient Dashboard Filter By Day" src="../img/clinicians/filter_by_day.png" /></p>
@@ -741,7 +741,7 @@
 <h3 id="patient-feedback">Patient Feedback</h3>
 <p>Just hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician timely feedback at the specific time. In the future, the feedbacks are significant evidence to make new treatments plans.</p>
 <p><img alt="Clinicians Patient Dashboard Hover" src="../img/clinicians/hover.png" /></p>
-<p><img alt="Clinicians Patient Dashboard Patient Feedback" src="../img/clinicians/patient_feedback.png" /></p>
+<p><img alt="Clinicians Patient Dashboard Patient Feedback" src="../img/clinicians/feedback.png" /></p>
 <h3 id="change-treatment-plan">Change Treatment Plan</h3>
 <p>At the bottom of the page, there is a button for the clinicians to change a new treatment for their patients.</p>
 <p><img alt="Clinicians Patient Dashboard Change Treatment Plan" src="../img/clinicians/change_treatment_plan.png" /></p>

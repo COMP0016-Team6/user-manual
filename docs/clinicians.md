@@ -2,13 +2,11 @@
 
 ## Register
 
-On the `register` page, select your user role as Clinician. And then input your basic information: email, password, name one by one.
-
-If you miss anyone of them, there will be a warning message: `Missing Credentials!`
+On the `register` page, select your user role as Clinician. And then input your basic information: email, password, name one by one. All fields required.
 
 ![Clinicians Register](img/clinicians/register.png)
 
-Once you have finished inputing your personal information, click on `Submit` to submit the registration form. After that, the web app will give you a token to allow you to log in directly.
+Click on `Submit` button to submit the registration form. After that, the web app will give you a token to allow you to log in directly.
 
 ## Login
 
@@ -20,7 +18,7 @@ If you have already register an account, just fill in email and password to inpu
 
 ### Add Patients
 
-Since you register as a clinician just now, you cannot see the patients you supervised so far.
+Since you just login, you haven't add any patients yet.
 
 ![Clinicians Dashboard Without Patients](img/clinicians/dashboard_without_patients.png)
 
@@ -32,11 +30,11 @@ Once you enter the add patients page, you will see all patients stored in the da
 
 On both clinician dashboard page and add patients page, the form which is used to add patients contains only a component `SearchBar` and a button to submit the form.
 
-#### Search Patients
+#### Searching Patients
 
 For the Searching bit, there is a search bar with text info `Search By Name`, after input the name of the patient, the system filter the lowercase of patients' names by the lowercase of input. If the name of the patient includes the input, this name will remain on the list.
 
-![Clinicians Add Patients Searching Patients](img/clinicians/searching_patietns(1).png)
+![Clinicians Add Patients Searching Patients](img/clinicians/searching_patients(1).png)
 
 #### Choosing Patients
 
@@ -50,7 +48,7 @@ After submitting the form, you can click the `Back` button to return to the clin
 
 ### Access to Patient Dashboard
 
-The search bar is also available for the clinicians to search patients.
+The search bar is also available for the clinicians to search patients on the `Clinician Dashboard` page.
 
 ![Clinicians Dashboard Searching Patients](img/clinicians/searching_patients(2).png)
 
@@ -70,11 +68,13 @@ The first component on the top left of the dashboard is used to select the date 
 
 ![Clinicians Patient Dashboard Date Selector](img/clinicians/date_range_selector.png)
 
-![Clinicians Patient Dashboard Date Selector Insight](img/clinicians/insight.png)
+![Clinicians Patient Dashboard Date Selector Insight 1](img/clinicians/insight(1).png)
+
+![Clinicians Patient Dashboard Date Selector Insight 2](img/clinicians/insight(2).png)
 
 After click on that and then select a range of time, the dashboard will filter the date the only remain the range of dates you selected.
 
-![Clinicians Patient Dashboard Date Selector](img/clinicians/select(1).png)
+![Clinicians Patient Dashboard Filter By Date Range](img/clinicians/dashboard_date_range.png)
 
 #### Filter By Day, By Month or By Year
 
@@ -110,7 +110,7 @@ Just hover on the point of the graph to see the percentage difference of receive
 
 ![Clinicians Patient Dashboard Hover](img/clinicians/hover.png)
 
-![Clinicians Patient Dashboard Patient Feedback](img/clinicians/patient_feedback.png)
+![Clinicians Patient Dashboard Patient Feedback](img/clinicians/feedback.png)
 
 ### Change Treatment Plan
 

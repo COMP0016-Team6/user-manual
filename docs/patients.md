@@ -1,6 +1,6 @@
 # Patients
 
-First of all, I have to mention here, the web app of the patient version is almost the same as that of the clinician's version in functionalities apart from some features such as add patients, but it mainly focuses on browsing the patient's himself dashboard and information rather than checking other patients or changing important treatment plans.
+The patient version is very similar to that of the clinician's version in functionalities apart from some features such as add patients, but it mainly focuses on browsing the patient's himself dashboard and information rather than checking other patients or changing important treatment plans.
 
 ## Register
 
@@ -22,7 +22,7 @@ If you have already register an account, just fill in email and password to inpu
 
 This is the overall view of the patient dashboard of the clinician version. It consists of several different components.
 
-![Patients Patient Dashboard](img/patients/patient_dashboard.png)
+![Patients Patient Dashboard](img/patients/dashboard.png)
 
 ### Filter the Data
 
@@ -32,11 +32,13 @@ The first component on the top left of the dashboard is used to select the date 
 
 ![Patients Patient Dashboard Date Selector](img/patients/date_range_selector.png)
 
-![Patients Patient Dashboard Date Selector Insight](img/patients/insight.png)
+![Patients Patient Dashboard Date Selector Insight 1](img/patients/insight(1).png)
+
+![Patients Patient Dashboard Date Selector Insight 2](img/patients/insight(2).png)
 
 After click on that and then select a range of time, the dashboard will filter the date the only remain the range of dates you selected.
 
-![Patients Patient Dashboard Date Selector](img/patients/select(1).png)
+![Patients Patient Dashboard Filter By Date Range](img/patients/dashboard_date_range.png)
 
 #### Filter By Day, By Month or By Year
 
@@ -72,28 +74,4 @@ Just hover on the point of the graph to see the percentage difference of receive
 
 ![Patients Patient Dashboard Hover](img/patients/hover.png)
 
-![Patients Patient Dashboard Patient Feedback](img/patients/patient_feedback.png)
-
-### Access to Patient Info
-
-Similar to the counterpart of the clinician dashboard, the name in blue indicates that it links to a new page, `patient info`.  
-
-![Patients Patient Dashboard Title](img/patients/dashboard_title.png)
-
-## Patient Info
-
-### Browse Information
-
-This page displays all patients information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history.
-
-Both clinicians and patients can check all treatment plans since the patient received medical care in the treatments history bit.
-
-![Patients Patient Info Information](img/patients/info.png)
-
-### Change Weight
-
-On the `Patient Info` page, change weight is also allowed. Click on the `Change Weight button`, input a natural number, submit it.
-
-![Patients Patient Info Changing Weight](img/patients/change_weight(1).png)
-
-![Patients Patient Info Change Weight Result](img/patients/change_weight(2).png)
+![Patients Patient Dashboard Patient Feedback](img/patients/feedback.png)
