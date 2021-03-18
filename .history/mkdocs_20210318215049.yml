@@ -1,9 +1,0 @@
-site_name: UCL-GOSH Data Interchange for Sensors Classifications
-nav:  
-    - Home: index.md
-    - Getting Started: getting_started.md
-    - User Manual: 
-        - Clinicians: clinicians.md
-        - Patients: patients.md
-    - Back to Protofolio Website: https://comp0016-team6.github.io/
-theme: material
