@@ -34,7 +34,7 @@ A patient can leave comments on the specific points on the graph clarifying what
 
 You can click on the point that you want to comment on and there will be a popup prompting you to enter your explanation. 
 
-![Clinicians Patient Dashboard Patient Feedback](img/clinicians/patient_feedback.png)
+![Clinicians Patient Dashboard Patient Feedback](img/clinicians/feedback.png)
 
 Click `submit` and your feedback will now be visible when having on that specific point. 
 
