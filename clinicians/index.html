@@ -239,6 +239,18 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        Admin
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
@@ -270,13 +282,6 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#register" class="md-nav__link">
-    Register
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#login" class="md-nav__link">
@@ -376,8 +381,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#volume-over-time" class="md-nav__link">
-    Volume Over Time
+  <a href="#fluid-intake-over-time" class="md-nav__link">
+    Fluid Intake Over Time
   </a>
   
 </li>
@@ -416,8 +421,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#access-to-patient-info" class="md-nav__link">
-    Access to Patient Info
+  <a href="#access-to-patient-information" class="md-nav__link">
+    Access to Patient Information
   </a>
   
 </li>
@@ -428,11 +433,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#patient-info" class="md-nav__link">
-    Patient Info
+  <a href="#patient-information" class="md-nav__link">
+    Patient Information
   </a>
   
-    <nav class="md-nav" aria-label="Patient Info">
+    <nav class="md-nav" aria-label="Patient Information">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -505,13 +510,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#register" class="md-nav__link">
-    Register
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#login" class="md-nav__link">
     Login
   </a>
@@ -609,8 +607,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#volume-over-time" class="md-nav__link">
-    Volume Over Time
+  <a href="#fluid-intake-over-time" class="md-nav__link">
+    Fluid Intake Over Time
   </a>
   
 </li>
@@ -649,8 +647,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#access-to-patient-info" class="md-nav__link">
-    Access to Patient Info
+  <a href="#access-to-patient-information" class="md-nav__link">
+    Access to Patient Information
   </a>
   
 </li>
@@ -661,11 +659,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#patient-info" class="md-nav__link">
-    Patient Info
+  <a href="#patient-information" class="md-nav__link">
+    Patient Information
   </a>
   
-    <nav class="md-nav" aria-label="Patient Info">
+    <nav class="md-nav" aria-label="Patient Information">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -701,10 +699,6 @@
                 
                 
                 <h1 id="clinicians">Clinicians</h1>
-<h2 id="register">Register</h2>
-<p>On the <code>register</code> page, select your user role as Clinician. And then input your basic information: email, password, name one by one. All fields required.</p>
-<p><img alt="Clinicians Register" src="../img/clinicians/register.png" /></p>
-<p>Click on <code>Submit</code> button to submit the registration form. After that, the web app will give you a token to allow you to log in directly.</p>
 <h2 id="login">Login</h2>
 <p>If you have already register an account, just fill in email and password to input.</p>
 <p><img alt="Clinicians Login" src="../img/clinicians/login.png" /></p>
@@ -745,13 +739,13 @@
 <p><img alt="Clinicians Patient Dashboard Filter By Month" src="../img/clinicians/filter_by_month.png" /></p>
 <p><img alt="Clinicians Patient Dashboard Filter By Year" src="../img/clinicians/filter_by_year.png" /></p>
 <h3 id="data-type">Data Type</h3>
-<p>Our web app dashboard supports two types of data type: <code>Volume Over Time</code> and <code>Energy Intake Over Time</code>, the default setting is <code>Volume Over Time</code>, change the selection to the second one to check the patient's energy intake over time.</p>
-<h4 id="volume-over-time">Volume Over Time</h4>
-<p><img alt="Clinicians Patient Dashboard Volume Over Time" src="../img/clinicians/volume_over_time.png" /></p>
+<p>Our web app dashboard supports two types of data type: <code>Fluid Intake Over Time</code> and <code>Energy Intake Over Time</code>, the default setting is <code>Fluid Intake Over Time</code>, change the selection to the second one to check the patient's energy intake over time.</p>
+<h4 id="fluid-intake-over-time">Fluid Intake Over Time</h4>
+<p><img alt="Clinicians Patient Dashboard Fluid Intake Over Time" src="../img/clinicians/fluid_intake_over_time.png" /></p>
 <h4 id="energy-intake-over-time">Energy Intake Over Time</h4>
 <p><img alt="Clinicians Patient Dashboard Energy Intake Over Time" src="../img/clinicians/energy_intake_over_time.png" /></p>
 <h3 id="show-weight">Show Weight</h3>
-<p>If tick the checkbox <code>Show Weight</code>, the dashboard will display the change of patient's body weight changes over time in a blue line.</p>
+<p>If tick the checkbox <code>Show Weight</code>, the dashboard will display the change of patient's body weight changes over time in a blue line on a new graph.</p>
 <p><img alt="Clinicians Patient Dashboard Show Weight" src="../img/clinicians/show_weight.png" /></p>
 <h3 id="patient-feedback">Patient Feedback</h3>
 <p>Just hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician timely feedback at the specific time. In the future, the feedbacks are significant evidence to make new treatments plans.</p>
@@ -762,10 +756,10 @@
 <p><img alt="Clinicians Patient Dashboard Change Treatment Plan" src="../img/clinicians/change_treatment_plan.png" /></p>
 <p>All three text fields must fill in. Besides, the Target Feed Volume and Target Energy Intake have to greater than 0. Otherwise, the input is invalid.</p>
 <p>The new personalised treatment will be kept in the database and be able to review on the patient info page.</p>
-<h3 id="access-to-patient-info">Access to Patient Info</h3>
+<h3 id="access-to-patient-information">Access to Patient Information</h3>
 <p>Similar to the counterpart of the clinician dashboard, the name in blue indicates that it links to a new page, <code>patient info</code>.  </p>
 <p><img alt="Clinicians Patient Dashboard Title" src="../img/clinicians/dashboard_title.png" /></p>
-<h2 id="patient-info">Patient Info</h2>
+<h2 id="patient-information">Patient Information</h2>
 <h3 id="browse-information">Browse Information</h3>
 <p>This page displays all patients information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history.</p>
 <p>Both clinicians and patients can check all treatment plans since the patient received medical care in the treatments history bit.</p>
@@ -791,7 +785,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../getting_started/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../admin/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -800,7 +794,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Getting Started
+              Admin
             </div>
           </div>
         </a>
