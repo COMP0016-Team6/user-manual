@@ -2,16 +2,6 @@
 
 The patient version is very similar to that of the clinician's version in functionalities apart from some features such as add patients, but it mainly focuses on browsing the patient's himself dashboard and information rather than checking other patients or changing important treatment plans.
 
-## Register
-
-Similar to the clinician's version, the register page also needs basic information. However, this page requires more information including gender, date of birth to calculate age, diagnostic conclusion provided by clinicians, initial treatment plan information.
-
-Please pay attention to fill in these fields according to common sense, for example, weight must be greater than 0 and should not be a string.
-
-![Patients register](img/patients/register.png)
-
-Click the `Submit`, and then login as a patient.
-
 ## Login
 
 If you have already register an account, just fill in email and password to input.
@@ -52,11 +42,11 @@ The default setting of filtering is `All Data`, change it to `By Day`, `By Month
 
 ### Data Type
 
-Our web app dashboard supports two types of data type: `Volume Over Time` and `Energy Intake Over Time`, the default setting is `Volume Over Time`, change the selection to the second one to check the patient's energy intake over time.
+Our web app dashboard supports two types of data type: `Fluid Intake Over Time` and `Energy Intake Over Time`, the default setting is `Fluid Intake Over Time`, change the selection to the second one to check the patient's energy intake over time.
 
-#### Volume Over Time
+#### Fluid Intake Over Time
 
-![Patients Patient Dashboard Volume Over Time](img/patients/volume_over_time.png)
+![Patients Patient Dashboard Fluid Intake Over Time](img/patients/fluid_intake_over_time.png)
 
 #### Energy Intake Over Time
 
@@ -64,7 +54,7 @@ Our web app dashboard supports two types of data type: `Volume Over Time` and `E
 
 ### Show Weight
 
-If tick the checkbox `Show Weight`, the dashboard will display the change of patient's body weight changes over time in a blue line.
+If tick the checkbox `Show Weight`, the dashboard will display the change of patient's body weight changes over time in a blue line on a new graph.
 
 ![Patients Patient Dashboard Show Weight](img/patients/show_weight.png)
 
@@ -75,3 +65,27 @@ Just hover on the point of the graph to see the percentage difference of receive
 ![Patients Patient Dashboard Hover](img/patients/hover.png)
 
 ![Patients Patient Dashboard Patient Feedback](img/patients/feedback.png)
+
+### Access to Patient Information
+
+On the top left of the patient dashboard, there is a `My Information` link to go to the information page.
+
+![Patients Patient Dashboard Info Link](img/patients/info_link.png)
+
+## Patient Information
+
+### Browse Information
+
+This page displays all patients information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history.
+
+Both clinicians and patients can check all treatment plans since the patient received medical care in the treatments history bit.
+
+![Patients Patient Info Information](img/patients/info.png)
+
+### Change Weight
+
+On the `Patient Info` page, change weight is also allowed. Click on the `Change Weight` button, input a natural number, submit it.
+
+![Patients Patient Info Changing Weight](img/patients/change_weight(1).png)
+
+![Patients Patient Info Change Weight Result](img/patients/change_weight(2).png)

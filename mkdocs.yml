@@ -4,6 +4,7 @@ nav:
     - Home: index.md
     - Getting Started: getting_started.md
     - User Manual: 
+        - Admin: admin.md
         - Clinicians: clinicians.md
         - Patients: patients.md
 theme: material

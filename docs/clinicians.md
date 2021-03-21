@@ -1,13 +1,5 @@
 # Clinicians
 
-## Register
-
-On the `register` page, select your user role as Clinician. And then input your basic information: email, password, name one by one. All fields required.
-
-![Clinicians Register](img/clinicians/register.png)
-
-Click on `Submit` button to submit the registration form. After that, the web app will give you a token to allow you to log in directly.
-
 ## Login
 
 If you have already register an account, just fill in email and password to input.
@@ -88,11 +80,11 @@ The default setting of filtering is `All Data`, change it to `By Day`, `By Month
 
 ### Data Type
 
-Our web app dashboard supports two types of data type: `Volume Over Time` and `Energy Intake Over Time`, the default setting is `Volume Over Time`, change the selection to the second one to check the patient's energy intake over time.
+Our web app dashboard supports two types of data type: `Fluid Intake Over Time` and `Energy Intake Over Time`, the default setting is `Fluid Intake Over Time`, change the selection to the second one to check the patient's energy intake over time.
 
-#### Volume Over Time
+#### Fluid Intake Over Time
 
-![Clinicians Patient Dashboard Volume Over Time](img/clinicians/volume_over_time.png)
+![Clinicians Patient Dashboard Fluid Intake Over Time](img/clinicians/fluid_intake_over_time.png)
 
 #### Energy Intake Over Time
 
@@ -100,7 +92,7 @@ Our web app dashboard supports two types of data type: `Volume Over Time` and `E
 
 ### Show Weight
 
-If tick the checkbox `Show Weight`, the dashboard will display the change of patient's body weight changes over time in a blue line.
+If tick the checkbox `Show Weight`, the dashboard will display the change of patient's body weight changes over time in a blue line on a new graph.
 
 ![Clinicians Patient Dashboard Show Weight](img/clinicians/show_weight.png)
 
@@ -122,13 +114,13 @@ All three text fields must fill in. Besides, the Target Feed Volume and Target E
 
 The new personalised treatment will be kept in the database and be able to review on the patient info page.
 
-### Access to Patient Info
+### Access to Patient Information
 
 Similar to the counterpart of the clinician dashboard, the name in blue indicates that it links to a new page, `patient info`.  
 
 ![Clinicians Patient Dashboard Title](img/clinicians/dashboard_title.png)
 
-## Patient Info
+## Patient Information
 
 ### Browse Information
 

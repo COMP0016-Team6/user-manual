@@ -16,11 +16,11 @@ The following are some guides on getting familiar with the app:
 
 ## Register a user 
 
-To use the app, you will need to first register as a user. On our main `Log in` page, click the `register` button to open the `register` page. 
+To use the app, you will need to first register as a user. After login the user role as `admin`, the user is able to register other clinicians and patients.
 
-![Clinicians Register](img/clinicians/register.png)
+![Clinicians Register](img/admin/register_clinicians.png)
 
-![Patients register](img/patients/register.png)
+![Patients register](img/admin/register_patients.png)
 
 Here, you will be able to see the form that needs to be filled in. There is also a field to choose to register as either a patient or a clinician. Depending on the role, the details required will be different. Clinicians only need email, name and password, while patients will further require their date of birth, weight, gender diagnostic conclusion and the treatment plan detail. You may then click on the `submit` button to register, and if everything is filled in correctly, you will be now logged in and redirected to the `Dashboard` page. 
 

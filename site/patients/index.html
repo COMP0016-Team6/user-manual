@@ -241,6 +241,18 @@
   
   
     <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        Admin
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../clinicians/" class="md-nav__link">
         Clinicians
       </a>
@@ -282,13 +294,6 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#register" class="md-nav__link">
-    Register
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#login" class="md-nav__link">
@@ -341,8 +346,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#volume-over-time" class="md-nav__link">
-    Volume Over Time
+  <a href="#fluid-intake-over-time" class="md-nav__link">
+    Fluid Intake Over Time
   </a>
   
 </li>
@@ -369,6 +374,40 @@
           <li class="md-nav__item">
   <a href="#patient-feedback" class="md-nav__link">
     Patient Feedback
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-to-patient-information" class="md-nav__link">
+    Access to Patient Information
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patient-information" class="md-nav__link">
+    Patient Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Patient Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#browse-information" class="md-nav__link">
+    Browse Information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-weight" class="md-nav__link">
+    Change Weight
   </a>
   
 </li>
@@ -417,13 +456,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#register" class="md-nav__link">
-    Register
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#login" class="md-nav__link">
     Login
   </a>
@@ -474,8 +506,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#volume-over-time" class="md-nav__link">
-    Volume Over Time
+  <a href="#fluid-intake-over-time" class="md-nav__link">
+    Fluid Intake Over Time
   </a>
   
 </li>
@@ -506,6 +538,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#access-to-patient-information" class="md-nav__link">
+    Access to Patient Information
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patient-information" class="md-nav__link">
+    Patient Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Patient Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#browse-information" class="md-nav__link">
+    Browse Information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-weight" class="md-nav__link">
+    Change Weight
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -526,11 +592,6 @@
                 
                 <h1 id="patients">Patients</h1>
 <p>The patient version is very similar to that of the clinician's version in functionalities apart from some features such as add patients, but it mainly focuses on browsing the patient's himself dashboard and information rather than checking other patients or changing important treatment plans.</p>
-<h2 id="register">Register</h2>
-<p>Similar to the clinician's version, the register page also needs basic information. However, this page requires more information including gender, date of birth to calculate age, diagnostic conclusion provided by clinicians, initial treatment plan information.</p>
-<p>Please pay attention to fill in these fields according to common sense, for example, weight must be greater than 0 and should not be a string.</p>
-<p><img alt="Patients register" src="../img/patients/register.png" /></p>
-<p>Click the <code>Submit</code>, and then login as a patient.</p>
 <h2 id="login">Login</h2>
 <p>If you have already register an account, just fill in email and password to input.</p>
 <p><img alt="Patients Login" src="../img/patients/login.png" /></p>
@@ -551,18 +612,30 @@
 <p><img alt="Patients Patient Dashboard Filter By Month" src="../img/patients/filter_by_month.png" /></p>
 <p><img alt="Patients Patient Dashboard Filter By Year" src="../img/patients/filter_by_year.png" /></p>
 <h3 id="data-type">Data Type</h3>
-<p>Our web app dashboard supports two types of data type: <code>Volume Over Time</code> and <code>Energy Intake Over Time</code>, the default setting is <code>Volume Over Time</code>, change the selection to the second one to check the patient's energy intake over time.</p>
-<h4 id="volume-over-time">Volume Over Time</h4>
-<p><img alt="Patients Patient Dashboard Volume Over Time" src="../img/patients/volume_over_time.png" /></p>
+<p>Our web app dashboard supports two types of data type: <code>Fluid Intake Over Time</code> and <code>Energy Intake Over Time</code>, the default setting is <code>Fluid Intake Over Time</code>, change the selection to the second one to check the patient's energy intake over time.</p>
+<h4 id="fluid-intake-over-time">Fluid Intake Over Time</h4>
+<p><img alt="Patients Patient Dashboard Fluid Intake Over Time" src="../img/patients/fluid_intake_over_time.png" /></p>
 <h4 id="energy-intake-over-time">Energy Intake Over Time</h4>
 <p><img alt="Patients Patient Dashboard Energy Intake Over Time" src="../img/patients/energy_intake_over_time.png" /></p>
 <h3 id="show-weight">Show Weight</h3>
-<p>If tick the checkbox <code>Show Weight</code>, the dashboard will display the change of patient's body weight changes over time in a blue line.</p>
+<p>If tick the checkbox <code>Show Weight</code>, the dashboard will display the change of patient's body weight changes over time in a blue line on a new graph.</p>
 <p><img alt="Patients Patient Dashboard Show Weight" src="../img/patients/show_weight.png" /></p>
 <h3 id="patient-feedback">Patient Feedback</h3>
 <p>Just hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician timely feedback at the specific time. In the future, the feedbacks are significant evidence to make new treatments plans.</p>
 <p><img alt="Patients Patient Dashboard Hover" src="../img/patients/hover.png" /></p>
 <p><img alt="Patients Patient Dashboard Patient Feedback" src="../img/patients/feedback.png" /></p>
+<h3 id="access-to-patient-information">Access to Patient Information</h3>
+<p>On the top left of the patient dashboard, there is a <code>My Information</code> link to go to the information page.</p>
+<p><img alt="Patients Patient Dashboard Info Link" src="../img/patients/info_link.png" /></p>
+<h2 id="patient-information">Patient Information</h2>
+<h3 id="browse-information">Browse Information</h3>
+<p>This page displays all patients information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history.</p>
+<p>Both clinicians and patients can check all treatment plans since the patient received medical care in the treatments history bit.</p>
+<p><img alt="Patients Patient Info Information" src="../img/patients/info.png" /></p>
+<h3 id="change-weight">Change Weight</h3>
+<p>On the <code>Patient Info</code> page, change weight is also allowed. Click on the <code>Change Weight</code> button, input a natural number, submit it.</p>
+<p><img alt="Patients Patient Info Changing Weight" src="../img/patients/change_weight%281%29.png" /></p>
+<p><img alt="Patients Patient Info Change Weight Result" src="../img/patients/change_weight%282%29.png" /></p>
                 
               
               
