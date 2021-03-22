@@ -1,16 +1,16 @@
 # Patients
 
-The patient version is very similar to that of the clinician's version in functionalities apart from some features such as add patients, but it mainly focuses on browsing the patient's himself dashboard and information rather than checking other patients or changing important treatment plans.
+A patient user will have most of the dashboard functionalities similar to a clinician. Patients will only be able to access their treatment data. 
 
 ## Login
 
-If you have already register an account, just fill in email and password to input.
+Enter the credentials of your registered patient account. 
 
 ![Patients Login](img/patients/login.png)
 
 ## Patient Dashboard
 
-This is the overall view of the patient dashboard of the clinician version. It consists of several different components.
+This is the patient dashboard which consists of several different components. 
 
 ![Patients Patient Dashboard](img/patients/dashboard.png)
 
@@ -18,7 +18,7 @@ This is the overall view of the patient dashboard of the clinician version. It c
 
 #### Filter by Specific Date Range
 
-The first component on the top left of the dashboard is used to select the date range to filter. 
+The component on the top left of the dashboard is used to select the date range to filter. 
 
 ![Patients Patient Dashboard Date Selector](img/patients/date_range_selector.png)
 
@@ -26,13 +26,13 @@ The first component on the top left of the dashboard is used to select the date 
 
 ![Patients Patient Dashboard Date Selector Insight 2](img/patients/insight(2).png)
 
-After click on that and then select a range of time, the dashboard will filter the date the only remain the range of dates you selected.
+By selecting a start date and an end date, the dashboard will filter the data only within the date range you selected. 
 
 ![Patients Patient Dashboard Filter By Date Range](img/patients/dashboard_date_range.png)
 
 #### Filter By Day, By Month or By Year
 
-The default setting of filtering is `All Data`, change it to `By Day`, `By Month` or `By Year` to reset the dashboard.
+The default setting of filtering is `All Data`, change it to `By Day`, `By Month` or `By Year` according to your preference. 
 
 ![Patients Patient Dashboard Filter By Day](img/patients/filter_by_day.png)
 
@@ -42,7 +42,7 @@ The default setting of filtering is `All Data`, change it to `By Day`, `By Month
 
 ### Data Type
 
-Our web app dashboard supports two types of data type: `Fluid Intake Over Time` and `Energy Intake Over Time`, the default setting is `Fluid Intake Over Time`, change the selection to the second one to check the patient's energy intake over time.
+Our web app dashboard supports two types of data type: `Fluid Intake Over Time` and `Energy Intake Over Time`. The default setting is `Fluid Intake Over Time`, you can change to the energy intake graph by using the dropdown.
 
 #### Fluid Intake Over Time
 
@@ -54,13 +54,13 @@ Our web app dashboard supports two types of data type: `Fluid Intake Over Time` 
 
 ### Show Weight
 
-If tick the checkbox `Show Weight`, the dashboard will display the change of patient's body weight changes over time in a blue line on a new graph.
+To display the weight graph, tick the `Show Weight` box. A separate weight against time graph will be shown in the blue line below the original graph. 
 
 ![Patients Patient Dashboard Show Weight](img/patients/show_weight.png)
 
 ### Patient Feedback
 
-Just hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician timely feedback at the specific time. In the future, the feedbacks are significant evidence to make new treatments plans.
+Hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician feedback at the specific time. In the future, the feedbacks can be helpful to make better-suited treatment plans for patients. 
 
 ![Patients Patient Dashboard Hover](img/patients/hover.png)
 
@@ -68,7 +68,7 @@ Just hover on the point of the graph to see the percentage difference of receive
 
 ### Access to Patient Information
 
-On the top left of the patient dashboard, there is a `My Information` link to go to the information page.
+On the top left of the patient dashboard, there is a `My Information` link to the patient info page.
 
 ![Patients Patient Dashboard Info Link](img/patients/info_link.png)
 
@@ -76,15 +76,13 @@ On the top left of the patient dashboard, there is a `My Information` link to go
 
 ### Browse Information
 
-This page displays all patients information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history.
-
-Both clinicians and patients can check all treatment plans since the patient received medical care in the treatments history bit.
+This page displays all patient’s information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history. These data will be accessible by both the clinician and the patient. 
 
 ![Patients Patient Info Information](img/patients/info.png)
 
 ### Change Weight
 
-On the `Patient Info` page, change weight is also allowed. Click on the `Change Weight` button, input a natural number, submit it.
+On the `Patient Info` page, you can also update the patient's weight by clicking on the `Change Weight` button. Submit a positive number to update the new weight of the patient. 
 
 ![Patients Patient Info Changing Weight](img/patients/change_weight(1).png)
 

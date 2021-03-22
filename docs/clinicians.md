@@ -2,7 +2,7 @@
 
 ## Login
 
-If you have already register an account, just fill in email and password to input.
+Enter the credentials of your registered clinician account. 
 
 ![Clinicians Login](img/clinicians/login.png)
 
@@ -10,45 +10,45 @@ If you have already register an account, just fill in email and password to inpu
 
 ### Add Patients
 
-Since you just login, you haven't add any patients yet.
+With a fresh clinician account, there will be no assigned patients in your list. 
 
 ![Clinicians Dashboard Without Patients](img/clinicians/dashboard_without_patients.png)
 
-So, for now, you shall click the Add Patients button add some patients to supervise.
+In order to add supervised patients to your list, you shall click the Add Patients button. 
 
-Once you enter the add patients page, you will see all patients stored in the database. If you find no patients under the search bar, don't worry. You need to register some before you move to the next step.
+Once you enter the add patients page, you will see all patients stored in the database. 
 
 ![Clinicians Add Patients](img/clinicians/add_patients.png)
 
-On both clinician dashboard page and add patients page, the form which is used to add patients contains only a component `SearchBar` and a button to submit the form.
-
 #### Searching Patients
 
-For the Searching bit, there is a search bar with text info `Search By Name`, after input the name of the patient, the system filter the lowercase of patients' names by the lowercase of input. If the name of the patient includes the input, this name will remain on the list.
+There will be a search bar on both the clinician dashboard page and add patients page, searching by the name of the patient. 
+
+Type in the name that you wish to search for, then if the name of the patient matches your input, the patient will be showing up on the list. 
 
 ![Clinicians Add Patients Searching Patients](img/clinicians/searching_patients(1).png)
 
 #### Choosing Patients
 
-And there are checkboxes for you to select the patients you want to add.
+Tick the checkboxes next to the names and submit them to add patients to your clinician dashboard. You can also uncheck the boxes to remove patients that you are not supervising anymore. 
 
 ![Clinicians Add Patients Choosing Patients](img/clinicians/choosing_patients.png)
 
-After submitting the form, you can click the `Back` button to return to the clinician dashboard page and you can access your patients' dashboards.
+After submitting the form, there should be a successful message, then you can click the `Back` button to return to the clinician dashboard page and you can access your patients' dashboards. 
 
 ![Clinicians Dasboard With Patients](img/clinicians/dashboard_with_patients.png)
 
 ### Access to Patient Dashboard
 
-The search bar is also available for the clinicians to search patients on the `Clinician Dashboard` page.
+The search bar is also available for the clinicians to search patients on the clinician dashboard page. 
 
 ![Clinicians Dashboard Searching Patients](img/clinicians/searching_patients(2).png)
 
-In addition, patients' names are in blue because each name links to their patient dashboard. 
+The patients' names are clickable which redirects to their patient dashboard. 
 
 ## Patient Dashboard
 
-This is the overall view of the patient dashboard of the clinician version. It consists of several different components.
+This is the overall view of the patient dashboard of the clinician version. It consists of several different components. 
 
 ![Clinicians Patient Dashboard](img/clinicians/patient_dashboard.png)
 
@@ -56,7 +56,7 @@ This is the overall view of the patient dashboard of the clinician version. It c
 
 #### Filter by Specific Date Range
 
-The first component on the top left of the dashboard is used to select the date range to filter. 
+The component on the top left of the dashboard is used to select the date range to filter. 
 
 ![Clinicians Patient Dashboard Date Selector](img/clinicians/date_range_selector.png)
 
@@ -64,13 +64,13 @@ The first component on the top left of the dashboard is used to select the date 
 
 ![Clinicians Patient Dashboard Date Selector Insight 2](img/clinicians/insight(2).png)
 
-After click on that and then select a range of time, the dashboard will filter the date the only remain the range of dates you selected.
+By selecting a start date and an end date, the dashboard will filter the data only within the date range you selected. 
 
 ![Clinicians Patient Dashboard Filter By Date Range](img/clinicians/dashboard_date_range.png)
 
 #### Filter By Day, By Month or By Year
 
-The default setting of filtering is `All Data`, change it to `By Day`, `By Month` or `By Year` to reset the dashboard.
+The default setting of filtering is `All Data`, change it to `By Day`, `By Month` or `By Year` according to your preference. 
 
 ![Clinicians Patient Dashboard Filter By Day](img/clinicians/filter_by_day.png)
 
@@ -80,7 +80,7 @@ The default setting of filtering is `All Data`, change it to `By Day`, `By Month
 
 ### Data Type
 
-Our web app dashboard supports two types of data type: `Fluid Intake Over Time` and `Energy Intake Over Time`, the default setting is `Fluid Intake Over Time`, change the selection to the second one to check the patient's energy intake over time.
+Our web app dashboard supports two types of data type: `Fluid Intake Over Time` and `Energy Intake Over Time`. The default setting is `Fluid Intake Over Time`, you can change to the energy intake graph by using the dropdown. 
 
 #### Fluid Intake Over Time
 
@@ -92,13 +92,13 @@ Our web app dashboard supports two types of data type: `Fluid Intake Over Time` 
 
 ### Show Weight
 
-If tick the checkbox `Show Weight`, the dashboard will display the change of patient's body weight changes over time in a blue line on a new graph.
+To display the weight graph, tick the `Show Weight` box. A separate weight against time graph will be shown in the blue line below the original graph. 
 
 ![Clinicians Patient Dashboard Show Weight](img/clinicians/show_weight.png)
 
 ### Patient Feedback
 
-Just hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician timely feedback at the specific time. In the future, the feedbacks are significant evidence to make new treatments plans.
+Hover on the point of the graph to see the percentage difference of received and target feed and click on it to give the clinician feedback at the specific time. In the future, the feedbacks can be helpful to make better-suited treatment plans for patients. 
 
 ![Clinicians Patient Dashboard Hover](img/clinicians/hover.png)
 
@@ -106,17 +106,17 @@ Just hover on the point of the graph to see the percentage difference of receive
 
 ### Change Treatment Plan
 
-At the bottom of the page, there is a button for the clinicians to change a new treatment for their patients.
+At the bottom of the page, there is a button for the clinicians to change the treatment plan for their patients. 
 
 ![Clinicians Patient Dashboard Change Treatment Plan](img/clinicians/change_treatment_plan.png)
 
-All three text fields must fill in. Besides, the Target Feed Volume and Target Energy Intake have to greater than 0. Otherwise, the input is invalid.
+All three text fields are required. The target volume and target energy should also be greater than 0 for the input to be valid. 
 
-The new personalised treatment will be kept in the database and be able to review on the patient info page.
+The new treatment will be kept in the database and be able to review the patient info page. 
 
 ### Access to Patient Information
 
-Similar to the counterpart of the clinician dashboard, the name in blue indicates that it links to a new page, `patient info`.  
+The name in blue indicates the link to the patient info page. 
 
 ![Clinicians Patient Dashboard Title](img/clinicians/dashboard_title.png)
 
@@ -124,15 +124,13 @@ Similar to the counterpart of the clinician dashboard, the name in blue indicate
 
 ### Browse Information
 
-This page displays all patients information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history.
-
-Both clinicians and patients can check all treatment plans since the patient received medical care in the treatments history bit.
+This page displays all patient’s information including name, email, date of birth, age, gender, diagnostic conclusion, weight and treatment history. These data will be accessible by both the clinician and the patient. 
 
 ![Clinicians Patient Info Information](img/clinicians/info.png)
 
 ### Change Weight
 
-On the `Patient Info` page, change weight is also allowed. Click on the `Change Weight` button, input a natural number, submit it.
+On the `Patient Info` page, you can also update the patient's weight by clicking on the `Change Weight` button. Submit a positive number to update the new weight of the patient. 
 
 ![Clinicians Patient Info Changing Weight](img/clinicians/change_weight(1).png)
 

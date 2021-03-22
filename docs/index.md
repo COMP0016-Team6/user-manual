@@ -10,5 +10,8 @@ Here is a list of shortcuts:
 
 User Manual:
 
+- [Admin](admin.md)
 - [Clinicians](clinicians.md)
 - [Patients](patients.md)
+
+Here is a link to the [deployed solution](https://dauletbatayev.com).
