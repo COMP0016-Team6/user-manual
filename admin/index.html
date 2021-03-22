@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#login" class="md-skip">
+        <a href="#admin" class="md-skip">
           Skip to content
         </a>
       
@@ -246,6 +246,8 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Admin
@@ -259,6 +261,8 @@
         
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -354,6 +358,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -408,18 +414,18 @@
               
                 
                 
-                  <h1>Admin</h1>
-                
-                <p>Since only authorised people can use the web app, it would be necessary that we need an <code>admin</code> user to register users.</p>
+                <h1 id="admin">Admin</h1>
+<p>The admin user is for registering authorised users to the app. This can only be done with the admin user since only approved clinicians or patients whose under a treatment should be using the app. The admin users will not be able to perform any other actions. </p>
 <h2 id="login">Login</h2>
-<p>There is only one valid admin user in this app, the user email is <code>admin@admin.com</code> and the password is <code>goshcomp0016team62021</code>.</p>
+<p>The admin will have their logins. </p>
 <p><img alt="Admin Login" src="../img/admin/login.png" /></p>
 <h2 id="register">Register</h2>
+<p>This is the landing page when logged in as an admin. On this page, you will be able to register new users by submitting the user details. </p>
 <h3 id="register-clinicians">Register Clinicians</h3>
-<p>On the <code>register</code> page, select your user role as <code>Clinician</code>. And then input your basic information: email, password, name one by one. All fields required.</p>
+<p>To register a clinician, select Clinician as your role. Then input your basic information: email, password, name one by one. All fields required. </p>
 <p><img alt="Admin Register Clinicians" src="../img/admin/register_clinicians.png" /></p>
 <h3 id="register-patients">Register Patients</h3>
-<p>Similarly, admin user is also able to register a patient in this page. However, registering a patient requires more information including gender, date of birth to calculate age, diagnostic conclusion and initial treatment plan information.</p>
+<p>Similarly, to register a patient on this page, email, password and name will need to be entered. On top of that, further information including gender, date of birth to calculate age, diagnostic conclusion and initial treatment plan information are also required. </p>
 <p><img alt="Admin Register Patients" src="../img/admin/register_patients.png" /></p>
                 
               
